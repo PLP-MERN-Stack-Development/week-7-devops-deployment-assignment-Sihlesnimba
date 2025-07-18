@@ -22,7 +22,7 @@ function App() {
   const [newUsername, setNewUsername] = useState("");
   const [newPin, setNewPin] = useState("");
 
-  const API_BASE = "https://glowpoints-backend.onrender.com";
+  const API_BASE = "https://week-7-devops-deployment-assignment-bpkj.onrender.com";
 
   useEffect(() => {
     const savedLogin = sessionStorage.getItem("loggedIn") === "true";
